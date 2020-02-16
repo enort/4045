@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class Assignment0Controller {
 
 	/**
-	 * Hanle the /start endpoint
+	 * Handle the /start endpoint
 	 * @return
 	 */
 	
@@ -16,6 +16,10 @@ public class Assignment0Controller {
 		return "start";
 	}
 	
+	/**
+	 * Handle the / endpoint
+	 * @return
+	 */
 	@RequestMapping("/")
 	public String index() {
 		return "start";
