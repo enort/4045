@@ -10,6 +10,7 @@ public class Assignment0Controller {
 	 * Hanle the /start endpoint
 	 * @return
 	 */
+	
 	@RequestMapping("/start")
 	public String start() {
 		return "start";
